@@ -1,70 +1,63 @@
-# Project Title
 
-A nice project with a nice description
+# LocalTrans Bali
+Selamat datang di repositori web LocalTrans Bali! LocalTrans Bali merupakan aplikasi pemesanan tiket perjalanan yang dapat melakukan pemesanan dengan cepat, efisien dan mengirimkan hasil pemesanan langsung ke server. Aplikasi ini dapat memudahkan pelanggan dalam mengakses informasi pemesanan tiket karena tingkat efektivitas dan efisiensi dari fungsi aplikasi itu sendiri. Kami merupakan bagian dari Team B - Group 3 - Section Medan RevoU MSIB KM AUG23, dan kami bangga telah membangun sebuah platform yang memberikan kemudahan bagi customer yang berkualitas.
 
----
 
-## Requirements
+# 🖥 Teknologi yang Digunakan
+LocalTrans Bali dibangun menggunakan berbagai teknologi, yaitu sebagai berikut:
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+| Teknologi | Keterangan | 
+| --------------- | --------------- |
+| JavaScript | Bahasa pemrograman yang digunakan untuk pengembangan frontend dan backend. |
+| Express.Js   | Kerangka kerja aplikasi web untuk Node.js. |
+| Node.Js   | Runtime JavaScript untuk pengembangan sisi server. |
+| MySQL   | Sistem manajemen basis data relasional sumber terbuka. | 
+| Postman | Alat pengembangan dan pengujian API. | 
+| Visual Studio Code | Editor kode untuk pengembangan yang efisien. |
+| GitHub | Hosting repositori kode yang dikontrol versi kami. | 
+| Railway | Platform untuk menghosting dan menyebarkan aplikasi web. |
 
-### Node
+### API Endpoints
 
-- #### Node installation on Windows
+- GET /: Mengambil API.
+- GET /bookings: Mengambil data booking
+- GET /destinations: Mengambil data dari destinasi
+- GET /cities: Mengambil data dari kota
+- GET /transportations: Mengambil data dari jenis-jenis transportasi
+- GET /contactus : Mengambil data dari kontak
 
-  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
-  Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
+## Demo API
 
-- #### Node installation on Ubuntu
+Check out our live demo at:
+- 🚀 https://be-2-medan-3-production.up.railway.app/
+- 🚀 https://be-2-medan-3-production.up.railway.app/bookings
+- 🚀 https://be-2-medan-3-production.up.railway.app/cities
+- 🚀 https://be-2-medan-3-production.up.railway.app/transportations
+- 🚀 https://be-2-medan-3-production.up.railway.app/contactus
 
-  You can install nodejs and npm easily with apt install, just run the following commands.
+## 🌐 Link LocalTrans Bali Final Project
 
-      $ sudo apt install nodejs
-      $ sudo apt install npm
+Di bawah ini dua link untuk menuju ke hasil project final LocalTrans Bali:
 
-- #### Other Operating Systems
-  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
+| Website              | Link                                               | Keterangan                                                                            |
+|----------------------|----------------------------------------------------|---------------------------------------------------------------------------------------|
+| LocalTrans Bali                | [Menuju API](https://be-2-medan-3-production.up.railway.app/) | Link website utama LocalTrans Bali|
 
-If the installation was successful, you should be able to run the following command.
+## 💡 Team B - Group 3 - Section Medan
+LocalTrans Bali adalah project yang dibangun dengan konsentrasi dan harapan besar oleh Team B - Group 3 - Section Medan KM AUG23, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ). 
+<br> Berikut tim perancang dan pengembang XGrow:
 
-    $ node --version
-    v8.11.3
+| Nama                   | Role                      |
+|------------------------|---------------------------|
+| Jody Setiawan          | Project Leader            |
+| Annisa D. Febrianti       | Frontend Engineer         |
+| Bela Titania Ersha    | Frontend Engineer         |
+| Avrillya Rizqi H.   | Backend Engineer          |
+| Irfan Saputra Nst   | Backend Engineer          |
+| Sepia Gandira        | Quality Assurance         |
 
-    $ npm --version
-    6.1.0
+## 🔐 Project Final
+Project telah final di tanggal 12 Desember 2023, tertutup untuk kontribusi.
 
-If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
-
-    $ npm install npm -g
-
-###
-
-### Yarn installation
-
-After installing node, this project will need yarn too, so just run the following command.
-
-      $ npm install -g yarn
-
----
-
-## Install
-
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
-
-## Configure app
-
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
-
-- A setting;
-- Another setting;
-- One more setting;
-
-## Running the project
-
-    $ yarn start
-
-## Simple build for production
-
-    $ yarn build
+## ♥️ Akhir
+Terima kasih telah mengunjungi repositori LocalTrans Bali dan selamat mengunakan, "Enjoy!"
